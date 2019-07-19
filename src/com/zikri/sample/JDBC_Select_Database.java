@@ -1,4 +1,5 @@
 //STEP 1. Import required packages
+package com.zikri.sample;
 import java.sql.*;
 
 public class JDBC_Select_Database {
@@ -7,8 +8,8 @@ public class JDBC_Select_Database {
    static final String DB_URL = "jdbc:mysql://localhost/STUDENTS";
 
    //  Database credentials
-   static final String USER = "username";
-   static final String PASS = "password";
+   static final String USER = "root";
+   static final String PASS = "admin";
    
    public static void main(String[] args) {
    Connection conn = null;
